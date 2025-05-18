@@ -173,12 +173,12 @@ if __name__ == "__main__":
     # 直接在main函数中定义手动注释字典（键为文件/目录相对路径，统一用斜杠）
     manual_file_comments = {
         # 文件注释示例（斜杠分隔）
-        "docs/test.pdf": "未阅读论文清单（每周更新）",
+        "docs/test.pdf": "测试所用的pdf文件",
         "src/main.py": "项目主入口文件",
         # 目录注释示例（以/结尾）
         "Shared_Resources/Paper/": "参考文献存放处",
         "Local_Files/": "本地文件存放于此，该文件夹下的文件不会被同步到云端仓库，所以大文件直接放在这里",
-        "Local_Files/.gitkeep": '用于在空文件夹中占位来让git追踪该文件夹'
+        "Local_Files/.gitkeep": '用于在空文件夹中占位来让git追踪该文件夹',
     }
 
     # 确保输出目录存在
